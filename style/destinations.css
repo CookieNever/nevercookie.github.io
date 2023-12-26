@@ -1,0 +1,232 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/destination/background-destination-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bellefair', serif;
+    padding-left: 165px;
+    padding-top: 24px;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 100px;
+    font-weight: 400;
+    margin-left: -175px;
+    margin-top: 37px;
+}
+
+h3 {
+    font-size: 56px;
+    font-weight: 400;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.title {
+    font-weight: 400;
+    padding-top: 212px;
+    padding-left: 166.5px;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+}
+
+.infos {
+    position: absolute;
+    top: 135%;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.infos2 {
+    position: absolute;
+    top: 135%;
+    left: 50%;
+    font-family: 'Bellefair', sans-serif;
+    font-size: 28px;
+    font-weight: 400;
+}
+
+.body-text {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    width: 444px;
+    padding-top: 14px;
+}
+
+
+nav {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+}
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    .currentPage {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 37px;
+    }
+
+    .pageSelection:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 37px;
+        text-decoration-color: rgba(255, 255, 255, 25%);
+    }
+
+    .nav-hr {
+        z-index: 8;
+        position: absolute;
+        left: 13%;
+        width: 700px;
+        margin-top: 7px;
+        border: none;
+        border-top: 3px solid rgba(255, 255, 255, 15%);
+        height: 5px;
+    }
+
+      nav, .nav-links {
+        display: flex;
+        align-items: center;
+      }
+
+      nav, .nav-links, .nav-ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav, .nav-links, .nav-ul, .nav-li {
+        padding-left: 60px;
+      }
+
+      a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+
+      .nav-links {
+        background-color: rgba(255, 255, 255, 4%);
+        backdrop-filter: blur(10px);
+        width: 1000px;
+        height: 96px;
+      }
+
+
+.choice-number {
+    opacity: 25%;
+    padding-right: 28px;
+}
+
+.moon-img {
+    margin-left: 230px;
+    margin-top: 97px;
+}
+
+
+.right-container {
+    position: absolute;
+    top: 35%;
+    left: 60%;
+}
+
+.nav-text {
+    cursor: pointer;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+}
+
+    .right-container ul {
+        display: flex;
+        list-style: none;
+    }
+
+    .right-container li {
+        padding-right: 35px;
+    }
+
+    .currentSelection {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 15px;
+    }
+
+    .planetSelection {
+        color: #D0D6F9;
+    }
+
+    .planetSelection:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 15px;
+        text-decoration-color: rgba(255, 255, 255, 25%);
+    }
+
+    .body-hr {
+        z-index: 8;
+        position: absolute;
+        top: 115%;
+        width: 450px;
+        margin-top: 7px;
+        border: none;
+        border-top: 3px solid rgba(255, 255, 255, 15%);
+        height: 5px;
+    }
+
+    .subhead2 {
+        position: absolute;
+        top: 125%;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 2.36px;
+        color: #D0D6F9;
+    }
+
+    .subhead2-2 {
+        position: absolute;
+        top: 125%;
+        left: 50%;
+        font-family: 'Barlow Condensed', sans-serif;
+        font-weight: 400;
+        font-size: 14px;
+        letter-spacing: 2.36px;
+        color: #D0D6F9;
+    }

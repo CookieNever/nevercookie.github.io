@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Bellefair&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../assets/home/background-home-desktop.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: #FFFFFF;
+}
+
+h1, h2, h3, h4 {
+    font-family: 'Bellefair', serif;
+    padding-left: 165px;
+    padding-top: 24px;
+}
+
+h1 {
+    font-size: 150px;
+    font-weight: 400;
+}
+
+h2 {
+    font-size: 100px;
+}
+
+h3 {
+    font-size: 56px;
+}
+
+h4 {
+    font-size: 32px;
+}
+
+h5 {
+    color: #D0D6F9;
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 4.75px;
+    padding-top: 387px;
+    padding-left: 165.5px;
+}
+
+.body-text {
+    color: #D0D6F9;
+    font-family: 'Barlow', sans-serif;
+    font-size: 18px;
+    line-height: 32px;
+    width: 609.5px;
+    padding-left: 165.5px;
+    padding-top: 25px;
+}
+
+
+nav {
+    font-family: 'Barlow Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 2.7px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding-top: 40px;
+}
+
+    .logo {
+        margin-left: 10px;
+    }
+
+    span {
+        font-weight: bold;
+    }
+
+    .currentPage {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 37px;
+    }
+
+    .pageSelection:hover {
+        text-decoration: underline;
+        text-decoration-thickness: 3px;
+        text-underline-offset: 37px;
+        text-decoration-color: rgba(255, 255, 255, 25%);
+    }
+
+    hr {
+        z-index: 8;
+        position: absolute;
+        left: 13%;
+        width: 700px;
+        margin-top: 7px;
+        border: none;
+        border-top: 3px solid rgba(255, 255, 255, 15%);
+        height: 5px;
+    }
+
+      nav, .nav-links {
+        display: flex;
+        align-items: center;
+      }
+
+      nav, .nav-links, ul {
+        display: flex;
+        list-style: none;
+      }
+
+      nav, .nav-links, ul, li {
+        padding-left: 60px;
+      }
+
+      .nav-links a {
+        color: #FFFFFF;
+        text-decoration: none;
+      }
+
+      .nav-links {
+        background-color: rgba(255, 255, 255, 4%);
+        backdrop-filter: blur(10px);
+        width: 1000px;
+        height: 96px;
+      }
+
+
+
+.hero-button button {
+    cursor: pointer;
+    border: none;
+    border-radius: 100%;
+    position: absolute;
+    top: 55%;
+    left: -5%;
+    width: 274px;
+    height: 274px;
+    margin-left: 1500px;
+    font-family: 'Bellefair', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+    button:hover {
+        outline: 75px solid rgba(255, 255, 255, 5%);
+    }
